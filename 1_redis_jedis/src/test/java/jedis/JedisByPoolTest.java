@@ -17,7 +17,6 @@ public class JedisByPoolTest {
     @BeforeEach
     public void setUp() {
         jedis = JedisConnectionFactory.getJedis();
-        jedis.select(0);
     }
 
     @Test
